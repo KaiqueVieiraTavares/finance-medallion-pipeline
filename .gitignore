@@ -1,0 +1,57 @@
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Variaveis de ambiente e credenciais
+.env
+.env.local
+credentials/
+service-account*.json
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# PySpark
+spark-warehouse/
+metastore_db/
+derby.log
+.checkpoint/
+checkpoints/
+
+# Dados locais gerados
+data/bronze/
+data/silver/
+data/gold/
+
+# Logs
+logs/
+*.log
+
+# Arquivos temporarios
+tmp/
+temp/
+*.tmp
+
+# IDEs
+.vscode/
+.idea/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build e pacotes
+build/
+dist/
+*.egg-info/
